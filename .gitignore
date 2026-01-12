@@ -1,0 +1,38 @@
+# Ignore dataset and environment secrets
+data/
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Airflow specifics
+airflow.cfg
+airflow.db
+logs/
+tmp/
+*.log
+
+# Docker-related (local overrides)
+docker-compose.override.yml
+
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE / editor files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+config/
